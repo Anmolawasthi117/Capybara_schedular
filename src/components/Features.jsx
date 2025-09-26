@@ -65,7 +65,7 @@ const Features = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          Schedulify takes care of every detail — from faculty inputs to clash
+          PLANIT takes care of every detail — from faculty inputs to clash
           management, generation, and export.
         </motion.p>
 

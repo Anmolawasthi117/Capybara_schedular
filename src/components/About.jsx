@@ -24,7 +24,7 @@ const About = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          About <span className="text-blue-600">Schedulify</span>
+          About <span className="text-blue-600">PLANIT</span>
         </motion.h2>
 
         {/* Summary */}
@@ -35,7 +35,7 @@ const About = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          Schedulify is your AI-driven scheduling partner — built with advanced
+          PLANIT is your AI-driven scheduling partner — built with advanced
           Genetic Algorithms to generate conflict-free, policy-compliant,
           optimized timetables tailored for modern academic programs.
         </motion.p>

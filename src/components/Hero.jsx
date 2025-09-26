@@ -15,7 +15,7 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
-        Schedulify
+        PLANIT
       </motion.h1>
 
       {/* Tagline */}

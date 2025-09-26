@@ -51,7 +51,7 @@ const UserFlow = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          How <span className="text-blue-600">Schedulify</span> Works
+          How <span className="text-blue-600">PLANIT</span> Works
         </motion.h2>
 
         <motion.p
