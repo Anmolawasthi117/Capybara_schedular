@@ -1,6 +1,7 @@
 // src/components/Hero.jsx
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -35,9 +36,11 @@ const Hero = () => {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.7, delay: 0.4, ease: "easeOut" }}
       >
+        <Link to="/admin">
         <button className="px-6 py-3 bg-white text-blue-600 rounded-lg font-semibold hover:bg-gray-100 transition shadow-md">
           Get Started
         </button>
+        </Link>
         <button className="px-6 py-3 bg-blue-800 rounded-lg font-semibold hover:bg-blue-900 transition shadow-md">
           Learn More
         </button>
